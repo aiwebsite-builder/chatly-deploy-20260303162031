@@ -1,35 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 :root {
-  /* Colors - Classic Neutrals (cream, white, subtle metallics) */
-  --background: rgb(249, 246, 240); /* Soft cream */
-  --foreground: rgb(28, 25, 21);    /* Dark charcoal text */
-  --primary: rgb(180, 150, 100);    /* Subtle gold/champagne accent */
-  --primary-foreground: rgb(255, 255, 255); /* White on primary */
-  --secondary: rgb(230, 227, 222);  /* Slightly darker cream */
-  --secondary-foreground: rgb(28, 25, 21); /* Dark text on secondary */
-  --muted: rgb(240, 237, 230);      /* Lighter cream */
-  --muted-foreground: rgb(120, 115, 108); /* Muted gray text */
-  --accent: rgb(200, 170, 130);     /* Another shade of gold */
-  --accent-foreground: rgb(255, 255, 255);
+  /* Colors */
+  --background: #0A0A0A;
+  --foreground: #F2F2F2;
+  --primary: #3B82F6;
+  --primary-foreground: #FFFFFF;
+  --secondary: #1E293B;
+  --secondary-foreground: #E2E8F0;
+  --muted: #1E1E1E;
+  --muted-foreground: #9CA3AF;
+  --accent: #8B5CF6;
+  --accent-foreground: #FFFFFF;
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
-  --border: rgba(0, 0, 0, 0.1);     /* Light, subtle border */
-  --card: rgb(255, 255, 255);       /* Pure white card backgrounds */
-  --card-foreground: rgb(28, 25, 21);
-  --input: rgba(0, 0, 0, 0.08);     /* Light input background */
-  --ring: rgb(180, 150, 100);       /* Gold ring color */
-
+  --border: rgba(255,255,255,0.1);
+  --card: #111111;
+  --card-foreground: #F2F2F2;
+  --input: rgba(255,255,255,0.15);
+  --ring: #3B82F6;
   /* Typography */
   --font-sans: 'Inter', system-ui, sans-serif;
-  --font-heading: 'Playfair Display', serif; /* Elegant serif for headings */
+  --font-heading: 'Inter', system-ui, sans-serif;
   --font-mono: ui-monospace, monospace;
   --font-size-base: 16px;
   --heading-weight: 700;
   --body-weight: 400;
   --letter-spacing: -0.02em;
   --line-height: 1.6;
-
   /* Layout */
   --radius: 0.625rem;
   --radius-sm: calc(var(--radius) - 4px);
@@ -38,22 +36,8 @@
   --radius-xl: calc(var(--radius) + 4px);
   --spacing: 0.25rem;
   --border-width: 1px;
-
   /* Shadows */
   --shadow-sm: 0 1px 2px rgba(0,0,0,0.1);
   --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
   --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
-}
-
-body {
-  margin: 0;
-  font-family: var(--font-sans);
-  color: var(--foreground);
-  background-color: var(--background);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
-  font-weight: var(--heading-weight);
-  letter-spacing: var(--letter-spacing);
 }
