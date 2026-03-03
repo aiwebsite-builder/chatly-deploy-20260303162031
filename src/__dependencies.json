@@ -1,0 +1,11 @@
+{
+  "framer-motion": "latest",
+  "lucide-react": "latest",
+  "gsap": "latest",
+  "class-variance-authority": "latest",
+  "clsx": "latest",
+  "tailwind-merge": "latest",
+  "@radix-ui/react-slot": "latest",
+  "@radix-ui/react-dialog": "latest",
+  "@radix-ui/react-separator": "latest"
+}
